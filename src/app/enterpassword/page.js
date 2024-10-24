@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import EnterPassword from '../login/Component/Enterpassword'
+import EnterPassword from '../login/Component/EnterPassword'
 
 const page = () => {
     return (
