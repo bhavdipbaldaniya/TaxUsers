@@ -1,0 +1,121 @@
+.logo {
+  width: 200px;
+  height: 131.75px;
+  margin-top: -81px;
+}
+
+.Detaillogo {
+  width: 200px;
+  height: 131.75px;
+}
+
+.form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.Loginwithmobilenumbermain {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.Loginwithmobilenumbercontentsubmain {
+  padding: 32px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-top: 81px;
+  max-width: calc(408px - 64px);
+}
+
+.DetailSubDiv {
+  padding: 32px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-top: 38px;
+  max-width: calc(408px - 64px);
+}
+
+.LabDiv {
+  margin-top: 24px !important;
+}
+
+.forgotPasswordText {
+  font-family: 'Poppins-Medium';
+  font-size: 12px;
+  width: fit-content;
+  margin: 24px auto auto auto;
+  font-weight: 400;
+  color: var(--body);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+
+.loginBtn {
+  margin-top: 32px !important;
+}
+
+.skipBtn {
+  margin-top: 40px !important;
+  background-color: #fff !important;
+  color: var(--primary) !important;
+}
+
+.skipBtn:hover {
+  text-decoration: underline;
+  transition: all 0.4s ease !important;
+}
+
+.outerDivText {
+  font-family: "Poppins-Medium";
+  margin-top: 24px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--subtitle);
+}
+
+.signUpText {
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.EnterReceiveLinkText {
+  font-family: 'Poppins-Medium';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #84898F;
+  margin: 12px 0 32px 0;
+
+}
+
+@media (max-width: 1025px) {
+  .Loginwithmobilenumbercontentsubmain {
+    margin-top: 0px;
+  }
+
+  .logo {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 470px) {
+  .Loginwithmobilenumbercontentsubmain {
+    padding: 10px;
+  }
+}

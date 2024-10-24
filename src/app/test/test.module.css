@@ -1,0 +1,79 @@
+.dashBoardMain {
+    border: 1px solid #c4cfd4;
+    width: max-content;
+    background-color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+  }
+  
+  .innerDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .svgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff2ba;
+    height: 56px;
+    width: 56px;
+    border-radius: 10px;
+    color: #bd9900;
+  }
+  
+  .upperDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    gap: 20px;
+  }
+  .svgSubDiv {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .indicator {
+    display: flex;
+    align-items: center;
+    width: 79px;
+    height: 33px;
+    border-radius: 36px;
+    background-color: #dbedec;
+    text-align: center;
+    justify-content: center;
+    padding: 8px 16px 8px 16px;
+    color: #009b83;
+  }
+  
+  .belowDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    gap: 12px;
+  }
+  
+  .priceDiv {
+    width: 100%;
+    height: 48px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #18253d;
+  }
+  
+  .textDiv {
+    width: 100%;
+    font-weight: 400;
+    size: 14px;
+    line-height: 21px;
+    color: #8e94a4;
+  }
+  

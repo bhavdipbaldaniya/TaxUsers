@@ -1,0 +1,308 @@
+.SelectDiv {
+  width: calc(100% - 50px);
+  border: 1px solid var(--border);
+  margin-top: 20px;
+  padding: 9px 24px 24px 24px;
+  border-radius: var(--radius);
+}
+
+.SelectSubDiv {
+  display: flex;
+  gap: 20px;
+}
+
+.BasicInformationDiv {
+  width: 100%;
+  margin-top: 22px;
+  display: flex;
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--border);
+}
+
+.BasicInformationDivTax {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--border);
+}
+
+.BasicInformationSubDiv {
+  margin-top: 15px;
+  display: flex;
+  width: 100%;
+  gap: 13px;
+}
+
+.BasicInformationSubDivChildren {
+  width: 100%;
+}
+
+.BasicInformationSubDivChildrene {
+  /* width: 10%; */
+}
+
+
+.BasicInformationSubDivBase {
+  display: flex;
+  width: 100%;
+  gap: 13px;
+}
+
+.BasicInformationSubDivBaseGeneralIncome {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 13px;
+}
+
+.BasicInformationSubDivSpouse {
+  margin-top: 60px;
+  display: flex;
+  width: 100%;
+  gap: 13px;
+}
+
+.BasinInfoDiv {
+  width: 30%;
+}
+
+.MainInfoDiv {
+  width: 70%;
+}
+
+.BasicInformationSubDivBaseDeduction {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 13px;
+  width: 70%;
+}
+
+.TotalIncomeMainDiv {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-left: auto;
+  gap: 5px;
+}
+
+.TotalIncomeSubDiv {
+  font-family: "Poppins-Medium";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: right;
+}
+
+.TotalIncomePriceDiv {
+  font-family: "Poppins-Medium";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: right;
+}
+
+.GeneralIncomeHeadingDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.NameDiv {
+  font-family: "Poppins-Medium";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--dark);
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.IncomeDiv {
+  font-family: "Poppins-Medium";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: left;
+  color: var(--dark);
+}
+
+.TotalIncomeSubPriceDiv {
+  font-family: "Poppins-Medium";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: left;
+  color: var(--dark);
+}
+
+.GeneralInfoBorder {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 22px 27px 22px 27px;
+  margin-top: 15px;
+}
+
+.BorderNone {
+  width: 100%;
+  margin-top: 22px;
+  display: flex;
+  padding-bottom: 40px;
+  border-bottom: none !important;
+}
+
+.InvestmentMainDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 13px;
+}
+
+.SocialSecurity {
+  display: flex;
+  gap: 15px;
+}
+
+
+.Estimateamount {
+  color: var(--subtitle);
+  display: flex;
+  width: 50%;
+}
+
+
+.MainDivForFooterSection {
+  margin-bottom: 38px;
+}
+
+.SubMainDivForFooterSction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.MainDivForamount {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.CreatButtonMainDiv {
+  display: flex;
+  align-items: center;
+  width: 10%;
+  margin: 0 0 0 auto;
+}
+
+@media (max-width: 1700px) {
+  .BasicInformationDivTax {
+    display: block;
+  }
+
+  .BasinInfoDiv {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .BasicInformationDiv {
+    display: block;
+  }
+
+  .BasinInfoDiv {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .MainInfoDiv {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .BasicInformationSubDivBase {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 13px;
+  }
+
+  .BasicInformationSubDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 13px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .BasicInformationSubDivBaseDeduction {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 13px;
+  }
+}
+
+@media (max-width: 750px) {
+  .BasicInformationSubDivBase {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 13px;
+  }
+
+  .BasicInformationSubDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 13px;
+  }
+
+  .BasicInformationSubDivSpouse {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: calc(70% - 46px);
+    gap: 13px;
+  }
+}
+
+@media (max-width: 600px) {
+  .BasicInformationSubDivSpouse {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: calc(70% - 46px);
+    gap: 13px;
+  }
+}
+
+@media (max-width: 500px) {
+  .BasicInformationSubDivBaseDeduction {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 450px) {
+  .SelectSubDiv {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 420px) {
+  .BasicInformationSubDivBase {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .BasicInformationSubDiv {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .BasicInformationSubDivSpouse {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: calc(70% - 46px);
+    gap: 13px;
+  }
+}

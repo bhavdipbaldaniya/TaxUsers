@@ -1,0 +1,623 @@
+.ModelContain {
+  max-width: 762px;
+  /* width: calc(762px - 60px); */
+  background: #ffffff;
+  box-shadow: 4px 4px 10px 0 #2929291a;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: var(--radius);
+  padding: 30px;
+}
+
+.Modelheader {
+  text-align: center;
+  font-weight: 600;
+  color: #18253d;
+  font-size: 24px;
+}
+
+
+.ModalMainDiv {
+  background: #000000cc;
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  cursor: auto;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+
+.MainDivForTaxProForma {
+  margin-top: 30px;
+}
+
+.MainDivForMainHadingContent {
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.MainDivHading {
+  font-family: "Poppins-Medium";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  color: var(--body);
+}
+
+.TaxProFormaYere {
+  font-family: "Poppins-Medium";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--subtitle);
+  margin-top: 4px;
+}
+
+.MainDivForName {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  text-align: center;
+}
+
+.MainDivForActualbutton {
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius);
+  background-color: var(--surfacePrimary);
+  cursor: pointer;
+}
+
+.ActualButton {
+  border-radius: 6px;
+  padding: 8px 24px;
+  border-bottom: 2px solid var(--primary);
+  border: 1px solid var(--border);
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), inset 0 -3px 0 var(--primary);
+  font-family: "Poppins-Medium";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: var(--dark);
+  outline: none;
+}
+
+.NotActual {
+  margin: 0 16px 0 16px;
+  color: var(--subtitle);
+  font-family: "Poppins-Medium";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.ExcleButton {
+  background-color: var(--white) !important;
+  color: var(--primary) !important;
+  margin-top: 0px !important;
+  padding: 10px 20px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+.CancelBtn {
+  background-color: var(--white) !important;
+  color: var(--primary) !important;
+  margin-top: 0px !important;
+  padding: 10px 20px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+.SaveBtn {
+  margin-top: 0px !important;
+  padding: 10px 27px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+.EditButton {
+  background-color: var(--white) !important;
+  color: var(--primary) !important;
+  margin-top: 0px !important;
+  padding: 10px 25px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+.DeleteButton {
+  background-color: var(--white) !important;
+  color: var(--error) !important;
+  margin-top: 0px !important;
+  padding: 10px 25px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  border: 1px solid var(--error) !important;
+}
+
+.DesebulDeleteBtn {
+  background-color: #d3cfcf !important;
+  color: #ffffff !important;
+  margin-top: 0px !important;
+  padding: 10px 25px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  border: 0px solid var(--error) !important;
+}
+
+.DesebulDeleteBtn svg path {
+  fill: #ffffff;
+  stroke: #ffffff;
+}
+
+.cardlistitemEffectiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MainDivForEditAndExcleBtn {
+  display: flex;
+  gap: 10px;
+  margin: auto;
+}
+
+.MainDivForMaximizeTax {
+  padding: 8px 20px;
+  border-radius: var(--radius);
+  background-color: var(--surfacePrimary);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto 10px auto 10px;
+}
+
+.MaximizeTaxDiv {
+  font-family: "Poppins-Medium";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--subtitle);
+}
+
+.MaximizeTaxDivIcon {
+  cursor: pointer;
+  margin-bottom: 4px;
+}
+
+.styledTable {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: var(--radius);
+  background-color: var(--white);
+}
+
+.MainDivForSubHading .cell {
+  background-color: var(--surfacePrimary);
+  font-family: "Poppins-SemiBold";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: var(--dark);
+}
+
+.MainDivForSubHading,
+.row {
+  display: flex;
+}
+
+.cell {
+  flex: 1;
+  padding: 10px;
+  border: 1.42px solid var(--border);
+  text-align: left;
+  line-height: 2;
+  font-family: "Poppins-Medium";
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--body);
+  border-bottom: none;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.cell:last-child {
+  border-right: none;
+  border-left: none;
+}
+
+.cell:first-child {
+  border-right: none;
+  border-left: none;
+}
+
+.cell:nth-child(3) {
+  border-left: none;
+}
+
+.boxborder {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.input {
+  border: none !important;
+  outline: none;
+  width: 100%;
+}
+
+/* .infoButton {
+  margin-left: 12px;
+  background-color: var(--dark);
+  color: var(--white);
+  border: none;
+  border-radius: 20px;
+  padding: 0px 15px;
+  font-size: 11px;
+  cursor: pointer;
+  animation: flash 1s infinite;
+  transition: background-color 0.6s ease;
+} */
+
+/* @keyframes flash {
+  0% {
+    background-color: #ffffff;
+  }
+
+  50% {
+    background-color: var(--dark);
+  }
+
+  100% {
+    background-color: #ffffff;
+  }
+} */
+
+.MainDivForAllButton {
+  display: flex;
+}
+
+.MainDivForCancelSave {
+  display: flex;
+  gap: 10px;
+}
+
+.infoButton {
+  margin-left: 12px;
+  background-color: #14213d;
+  color: var(--white);
+  border: none;
+  border-radius: 20px;
+  padding: 0 10px;
+  font-size: 11px;
+  cursor: pointer;
+  position: relative;
+}
+
+.InfoAnimation {
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: inherit;
+  opacity: 0.5;
+  animation: pulseAnimate 1s ease infinite;
+}
+
+@keyframes pulseAnimate {
+  100% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
+
+.card {
+  line-height: 2;
+  margin-top: 30px;
+  max-width: 600px;
+  background-color: #e5ecf0;
+  border-radius: var(--radius);
+  padding: 20px 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  border: 1px solid var(--border);
+}
+
+.CancellBtn {
+  display: flex;
+  justify-content: end;
+  margin-top: -17px;
+  margin-right: -16px;
+}
+
+.CancellBtn span {
+  cursor: pointer;
+}
+
+.tabContainer {
+  display: flex;
+}
+
+.ActiveModalTab {
+  border-bottom: 1px solid var(--border);
+}
+
+.HeaderContentDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.HeadingSub {
+  border-bottom: 2px solid var(--primary);
+  width: fit-content;
+  color: var(--primary);
+  padding-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+  .card {
+    width: calc(100% - 83px);
+  }
+}
+
+.cell1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Editcursorpointer {
+  cursor: pointer;
+}
+
+.fedrelDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.BlankTableContent {
+  opacity: 0;
+}
+
+
+
+.MainDivForEmptyProforma {
+  width: 20%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.MainDivForEmptyProformaLabul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.NextEmptyButton {
+  margin-top: 30px !important;
+}
+
+.AmountOwedRefund {
+  font-family: 'Poppins-Medium';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--body);
+  width: 100%;
+  padding: 14px 0px 14px 10px;
+}
+
+.FinullTaxTotalCss {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--border);
+
+}
+
+.parantChildrendiv {
+  width: 100%;
+  border-left: 1px solid var(--border);
+  padding: 14px 0px 14px 10px;
+  font-family: 'Poppins-Medium';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--body);
+}
+
+
+
+.MainDivForModelBorder {
+  border: 1px solid var(--border);
+  margin-top: 30px;
+  border-radius: var(--radius);
+  /* padding: 10px 30px; */
+}
+
+.MainDivForModelHadings {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  max-height: 45px;
+  height: 45px;
+  border-bottom: 1px solid var(--border)
+}
+
+.ModelHadingText {
+  font-family: 'Poppins-Medium';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--dark);
+  border-right: 1px solid var(--border);
+  padding: 0px 0px 0 21px;
+
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #F3F6F8;
+
+}
+
+.ModelHadingText:first-child {
+  font-family: 'Poppins-Medium';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--dark);
+  border-right: 1px solid var(--border);
+  padding: 0px 0px 0 21px;
+
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #F3F6F8;
+  border-radius: 8px 0px 0px 0px;
+
+}
+
+.ModelHadingText:last-child {
+  font-family: 'Poppins-Medium';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--dark);
+  border-right: none;
+  padding: 0px 0px 0 21px;
+
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #F3F6F8;
+  border-radius: 0px 8px 0px 0px;
+}
+
+
+.ModelHadingTextValue {
+  font-family: 'Poppins-Medium';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--body);
+  border-right: 1px solid var(--border);
+  padding: 0px 0px 0 21px;
+
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.ModelHadingTextValue:last-child {
+  font-family: 'Poppins-Medium';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--body);
+  border-right: none;
+  padding: 0px 0px 0 21px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.MainDivForModelHadingsValues {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  max-height: 45px;
+  height: 45px;
+}
+
+
+
+.ModelHadingTextTotal {
+  font-family: 'Poppins-Medium';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--primary);
+  border-right: 1px solid var(--border);
+  padding: 0px 0px 0 21px;
+
+  height: 100%;
+  background-color: #F3F6F8;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  justify-content: center;
+}
+
+.ModelHadingTextTotal:last-child {
+  font-family: 'Poppins-Medium';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--primary);
+  border-right: none;
+  padding: 0px 0px 0 21px;
+
+  height: 100%;
+  background-color: #F3F6F8;
+  border-radius: 0px 0px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  justify-content: center;
+}
+
+.ModelHadingTextTotal:first-child {
+  font-family: 'Poppins-Medium';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--primary);
+  border-right: 1px solid var(--border);
+  padding: 0px 0px 0 21px;
+
+  height: 100%;
+  background-color: #F3F6F8;
+  border-radius: 0px 0px 0px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  justify-content: center;
+}
+
+.LableTotalDivSub {
+  font-family: 'Poppins-Medium';
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.2;
+}

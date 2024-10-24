@@ -1,0 +1,143 @@
+.kfEVfC {
+    display: none;
+}
+
+.bpcekY {
+    display: none;
+}
+
+.cPTFZC {
+    /* display: none !important; */
+}
+
+.bzRuyo {
+    display: none !important;
+}
+
+
+
+
+
+/* table title sort text css start */
+.caNzNe {
+    display: flex;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.hudJpJ {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: var(--surfacePrimary) !important;
+    min-height: 52px;
+    border-bottom: 2px solid var(--border) !important;
+}
+
+.ddvZdT {
+    overflow: visible !important;
+    white-space: normal !important;
+    font-family: 'Poppins-Medium';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--dark);
+
+}
+
+
+.bOmZtP div:first-child {
+    overflow: visible !important;
+    white-space: normal !important;
+    font-family: 'Poppins-Medium';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: var(--dark);
+
+
+}
+
+
+
+
+/* table title sort text css end */
+
+.iGxMlw:not(:last-of-type) {
+    border-bottom: 1.42px solid var(--border) !important;
+}
+
+.iGxMlw {
+    align-items: center !important;
+    border-bottom: 1.42px solid var(--border) !important;
+}
+
+.hZZlND {
+    border-radius: initial !important;
+}
+
+.jEvKKB {
+    font-family: 'Poppins-Medium';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--primary);
+    margin: 0 16px !important;
+}
+
+.cPTFZC:disabled {
+    cursor: unset !important;
+    color: var(--subtitle) !important;
+    fill: var(--subtitle) !important;
+}
+
+.cPTFZC {
+    cursor: pointer !important;
+    height: 30px !important;
+    width: 30px !important;
+    color: var(--primary) !important;
+    fill: var(--primary) !important;
+}
+
+.cPTFZC:hover:not(:disabled){
+    background-color: var(--lightBinary) !important;
+}
+
+.hZZlND::-webkit-scrollbar {
+    width: 5px;
+    height: 7px;
+    margin-left: 5px;
+}
+
+.hZZlND::-webkit-scrollbar-thumb {
+    background-color: #80878b;
+    border-radius: 10px;
+}
+
+.hZZlND::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+#pagination-first-page {
+    display: none !important;
+}
+
+#pagination-last-page {
+    display: none !important;
+}
+
+.hDPlLz {
+    width: calc(100% - 16px) !important;
+    border-top: none !important;
+    position: absolute;
+    bottom: 5px;
+}
+
+.dQcPXM:nth-child(6) {
+    margin-right: 30px !important;
+    justify-content: center !important;
+
+}

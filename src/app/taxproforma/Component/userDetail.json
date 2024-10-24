@@ -1,0 +1,42 @@
+{
+    "data": [
+      {
+        "category": "Fred Pension",
+        "federal": 44411.00,
+        "federal_wh": "7800.21"
+      },
+      {
+        "category": "Sandra Pension",
+        "federal": 12130.24,
+        "federal_wh": "-"
+      },
+      {
+        "category": "Fred IRA Income",
+        "federal": 32455.30,
+        "federal_wh": "12,325.22"
+      },
+      {
+        "category": "Sandra IRA Income",
+        "federal": 11145.78,
+        "federal_wh": "3,562.33"
+      },
+      {
+        "category": "Fred Social Security",
+        "total": 22213.20,
+        "federal": 7924.92,
+        "federal_wh": "-"
+      },
+      {
+        "category": "Sandra Social Security",
+        "total": 17829.20,
+        "federal": 6782.14,
+        "federal_wh": "-"
+      },
+      {
+        "category": "Sandra IRA Income",
+        "federal": 21782.14,
+        "federal_wh": "4,589.33"
+      }
+    ]
+  }
+
